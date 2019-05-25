@@ -6,7 +6,9 @@
 
     <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
         <div class="container">
-            {{ partial "header.html" . }}
+            {{ block "header" . }}
+                {{ partial "header.html" . }}
+            {{ end }}
 
             <div class="content">
                 {{ block "main" . }}{{ end }}

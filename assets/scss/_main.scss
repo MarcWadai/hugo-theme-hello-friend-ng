@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter UI', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.54;
   background-color: $light-background;
@@ -224,6 +224,10 @@ ol ol {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background: url(/images/acceuil_back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .content {
@@ -232,7 +236,7 @@ ol ol {
   flex: 1 auto;
   align-items: center;
   justify-content: center;
-  margin: 50px 0;
+  // margin: 50px 0;
 
   @media #{$media-size-phone} {
     margin-top: 0;

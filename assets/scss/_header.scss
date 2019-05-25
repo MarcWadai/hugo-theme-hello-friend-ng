@@ -1,14 +1,14 @@
 .header {
-  background: #fafafa;
+  // background: #fafafa;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  padding: 20px;
+  padding: 15px;
 
-  .dark-theme & {
-    background: #252627;
-  }
+  // .dark-theme & {
+  //   background: $dark-background;
+  // }
 
   &__right {
     display: flex;
