@@ -1,25 +1,114 @@
 {{- if (eq .name "codepen") -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-codepen"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-codepen">
+    <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
+    <line x1="12" y1="22" x2="12" y2="15.5"></line>
+    <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
+    <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
+    <line x1="12" y1="2" x2="12" y2="8.5"></line>
+</svg>
 {{- else if (eq .name "facebook") -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 408.788 408.788" style="enable-background:new 0 0 408.788 408.788;" xml:space="preserve">
+    <path style="fill:#475993;" d="M353.701,0H55.087C24.665,0,0.002,24.662,0.002,55.085v298.616c0,30.423,24.662,55.085,55.085,55.085  h147.275l0.251-146.078h-37.951c-4.932,0-8.935-3.988-8.954-8.92l-0.182-47.087c-0.019-4.959,3.996-8.989,8.955-8.989h37.882  v-45.498c0-52.8,32.247-81.55,79.348-81.55h38.65c4.945,0,8.955,4.009,8.955,8.955v39.704c0,4.944-4.007,8.952-8.95,8.955  l-23.719,0.011c-25.615,0-30.575,12.172-30.575,30.035v39.389h56.285c5.363,0,9.524,4.683,8.892,10.009l-5.581,47.087  c-0.534,4.506-4.355,7.901-8.892,7.901h-50.453l-0.251,146.078h87.631c30.422,0,55.084-24.662,55.084-55.084V55.085  C408.786,24.662,384.124,0,353.701,0z"/>
+    </svg>
 {{- else if (eq .name "github") -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
 {{- else if (eq .name "gitlab") -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gitlab"><path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gitlab">
+    <path
+        d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z">
+    </path>
+</svg>
 {{- else if (eq .name "instagram") -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    id="Layer_1" x="0px" y="0px" viewBox="0 0 551.034 551.034" style="enable-background:new 0 0 551.034 551.034;"
+    xml:space="preserve">
+    <g>
+
+        <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57" x2="275.517" y2="549.72"
+            gradientTransform="matrix(1 0 0 -1 0 554)">
+            <stop offset="0" style="stop-color:#E09B3D" />
+            <stop offset="0.3" style="stop-color:#C74C4D" />
+            <stop offset="0.6" style="stop-color:#C21975" />
+            <stop offset="1" style="stop-color:#7024C4" />
+        </linearGradient>
+        <path style="fill:url(#SVGID_1_);"
+            d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722   c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156   C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156   c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722   c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z" />
+
+        <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57" x2="275.517" y2="549.72"
+            gradientTransform="matrix(1 0 0 -1 0 554)">
+            <stop offset="0" style="stop-color:#E09B3D" />
+            <stop offset="0.3" style="stop-color:#C74C4D" />
+            <stop offset="0.6" style="stop-color:#C21975" />
+            <stop offset="1" style="stop-color:#7024C4" />
+        </linearGradient>
+        <path style="fill:url(#SVGID_2_);"
+            d="M275.517,133C196.933,133,133,196.933,133,275.516s63.933,142.517,142.517,142.517   S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6c-48.095,0-87.083-38.988-87.083-87.083   s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083C362.6,323.611,323.611,362.6,275.517,362.6z" />
+
+        <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="418.31" y1="4.57" x2="418.31" y2="549.72"
+            gradientTransform="matrix(1 0 0 -1 0 554)">
+            <stop offset="0" style="stop-color:#E09B3D" />
+            <stop offset="0.3" style="stop-color:#C74C4D" />
+            <stop offset="0.6" style="stop-color:#C21975" />
+            <stop offset="1" style="stop-color:#7024C4" />
+        </linearGradient>
+        <circle style="fill:url(#SVGID_3_);" cx="418.31" cy="134.07" r="34.15" />
+</svg>
 {{- else if (eq .name "linkedin") -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
 {{- else if (eq .name "slack") -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-slack"><path d="M22.08 9C19.81 1.41 16.54-.35 9 1.92S-.35 7.46 1.92 15 7.46 24.35 15 22.08 24.35 16.54 22.08 9z"></path><line x1="12.57" y1="5.99" x2="16.15" y2="16.39"></line><line x1="7.85" y1="7.61" x2="11.43" y2="18.01"></line><line x1="16.39" y1="7.85" x2="5.99" y2="11.43"></line><line x1="18.01" y1="12.57" x2="7.61" y2="16.15"></line></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-slack">
+    <path d="M22.08 9C19.81 1.41 16.54-.35 9 1.92S-.35 7.46 1.92 15 7.46 24.35 15 22.08 24.35 16.54 22.08 9z"></path>
+    <line x1="12.57" y1="5.99" x2="16.15" y2="16.39"></line>
+    <line x1="7.85" y1="7.61" x2="11.43" y2="18.01"></line>
+    <line x1="16.39" y1="7.85" x2="5.99" y2="11.43"></line>
+    <line x1="18.01" y1="12.57" x2="7.61" y2="16.15"></line>
+</svg>
 {{- else if (eq .name "twitter") -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+    <path
+        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+    </path>
+</svg>
 {{- else if (eq .name "youtube") -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -77 512.00213 512">
+    <path
+        d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0"
+        fill="#f00" />
+    <path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff" /></svg>
 {{- else if (eq .name "email") -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+    <polyline points="22,6 12,13 2,6"></polyline>
+</svg>
 {{- else if (eq .name "soundcloud") -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sound"><path d="M7 17.939h-1v-8.068c.308-.231.639-.429 1-.566v8.634zm3 0h1v-9.224c-.229.265-.443.548-.621.857l-.379-.184v8.551zm-2 0h1v-8.848c-.508-.079-.623-.05-1-.01v8.858zm-4 0h1v-7.02c-.312.458-.555.971-.692 1.535l-.308-.182v5.667zm-3-5.25c-.606.547-1 1.354-1 2.268 0 .914.394 1.721 1 2.268v-4.536zm18.879-.671c-.204-2.837-2.404-5.079-5.117-5.079-1.022 0-1.964.328-2.762.877v10.123h9.089c1.607 0 2.911-1.393 2.911-3.106 0-2.233-2.168-3.772-4.121-2.815zm-16.879-.027c-.302-.024-.526-.03-1 .122v5.689c.446.143.636.138 1 .138v-5.949z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+    y="0px" viewBox="0 0 112.196 112.196" style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve">
+    <g>
+        <circle style="fill:#FF6A22;" cx="56.098" cy="56.098" r="56.098" />
+        <g>
+            <path style="fill:#F1F2F2;"
+                d="M16.707,68.833c-0.027,0.182-0.157,0.312-0.326,0.312c-0.169,0-0.299-0.13-0.325-0.316    l-0.593-4.438l0.593-4.512c0.025-0.188,0.155-0.318,0.325-0.318c0.168,0,0.298,0.13,0.326,0.318l0.706,4.517L16.707,68.833z     M19.728,71.529c-0.028,0.193-0.168,0.328-0.341,0.328c-0.168,0-0.315-0.135-0.338-0.328l-0.798-7.139l0.798-7.299    c0.024-0.188,0.17-0.328,0.338-0.328c0.173,0,0.313,0.137,0.341,0.328l0.908,7.299L19.728,71.529z M22.988,72.738    c-0.023,0.232-0.197,0.397-0.406,0.397c-0.216,0-0.387-0.165-0.408-0.397l-0.757-8.342l0.757-8.659    c0.019-0.235,0.192-0.403,0.408-0.403c0.209,0,0.382,0.168,0.406,0.403l0.859,8.659L22.988,72.738z M26.28,73.003    c-0.024,0.266-0.232,0.467-0.479,0.467c-0.253,0-0.46-0.201-0.481-0.467l-0.715-8.607l0.715-8.897    c0.021-0.268,0.228-0.469,0.481-0.469c0.247,0,0.455,0.201,0.479,0.469l0.811,8.897L26.28,73.003z M29.59,73.072    c-0.017,0.309-0.258,0.538-0.543,0.538c-0.294,0-0.527-0.229-0.547-0.538l-0.676-8.677l0.676-8.254    c0.021-0.307,0.253-0.536,0.547-0.536c0.29,0,0.526,0.229,0.543,0.532l0.766,8.258L29.59,73.072z M32.932,73.077v-0.005    c-0.02,0.342-0.291,0.612-0.617,0.612c-0.327,0-0.598-0.271-0.617-0.607l-0.631-8.677l0.631-13.429    c0.019-0.342,0.29-0.612,0.617-0.612c0.327,0,0.598,0.271,0.617,0.607l0.715,13.434L32.932,73.077z M36.249,73.072v-0.005    c-0.02,0.378-0.319,0.679-0.689,0.679c-0.363,0-0.663-0.301-0.681-0.679l-0.596-8.621l0.596-16.501    c0.018-0.378,0.318-0.677,0.681-0.677c0.37,0,0.669,0.299,0.689,0.677l0.671,16.501L36.249,73.072z M39.69,72.939v-0.005    c-0.015,0.421-0.346,0.748-0.753,0.748c-0.407,0-0.738-0.327-0.753-0.743l-0.553-8.533c0,0,0.553-17.876,0.553-17.881    c0.016-0.416,0.346-0.749,0.753-0.749c0.407,0,0.739,0.333,0.753,0.749l0.625,17.881L39.69,72.939z M43.111,72.882    c-0.016,0.458-0.375,0.817-0.822,0.817c-0.448,0-0.807-0.359-0.823-0.813l-0.516-8.482l0.516-18.478    c0.016-0.46,0.375-0.818,0.823-0.818c0.447,0,0.807,0.358,0.822,0.818l0.573,18.478L43.111,72.882z M46.554,72.807v-0.005    c-0.016,0.495-0.403,0.888-0.894,0.888c-0.484,0-0.879-0.393-0.888-0.883l-0.474-8.401L44.767,46.4    c0.014-0.502,0.408-0.89,0.893-0.89c0.491,0,0.878,0.388,0.894,0.89l0.532,18.006L46.554,72.807z M50.025,72.757V72.75    c-0.008,0.539-0.434,0.954-0.96,0.954c-0.53,0-0.95-0.415-0.966-0.947l-0.428-8.352L48.1,47.058    c0.016-0.538,0.436-0.959,0.966-0.959c0.526,0,0.952,0.421,0.96,0.959l0.485,17.352L50.025,72.757z M53.566,71.876l-0.043,0.818    c-0.005,0.285-0.125,0.543-0.308,0.729c-0.188,0.183-0.446,0.3-0.719,0.3c-0.318,0-0.598-0.146-0.79-0.376    c-0.142-0.167-0.23-0.383-0.24-0.61c-0.003-0.01-0.003-0.023-0.003-0.037c0,0-0.395-8.286-0.395-8.3l0.39-20.443l0.005-0.196    c0.003-0.358,0.193-0.677,0.477-0.86c0.159-0.106,0.347-0.168,0.557-0.168c0.206,0,0.401,0.064,0.564,0.177    c0.277,0.185,0.458,0.496,0.463,0.852l0.434,20.648L53.566,71.876z M57.007,72.587v-0.01c-0.007,0.604-0.502,1.096-1.1,1.096    c-0.6,0-1.094-0.492-1.1-1.091l-0.227-4.03l-0.223-4.138l0.45-22.406v-0.113c0.001-0.34,0.161-0.644,0.408-0.849    c0.189-0.155,0.432-0.249,0.692-0.249c0.207,0,0.399,0.057,0.563,0.153c0.313,0.196,0.532,0.543,0.542,0.94l0.487,22.523    L57.007,72.587z M86.74,73.695c0,0-27.683,0-27.712,0c-0.598-0.061-1.071-0.537-1.081-1.15V40.821    c0.01-0.584,0.211-0.885,0.963-1.174c1.941-0.752,4.139-1.196,6.398-1.196c9.215,0,16.766,7.069,17.567,16.074    c1.186-0.495,2.496-0.777,3.865-0.777c5.518,0,9.992,4.476,9.992,9.998C96.732,69.267,92.258,73.695,86.74,73.695L86.74,73.695z" />
+        </g>
+</svg>
 {{- else -}}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
 {{- end -}}
